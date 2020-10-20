@@ -530,6 +530,15 @@ button,
     .container--no-padding {
       padding: 0; } }
 
+.header-wrap {
+  background-image: url("../img/bg/background-1@1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .header-wrap {
+      background-image: url("../img/bg/background-1@2x.png"); } }
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -538,31 +547,63 @@ button,
       -ms-flex-align: center;
           align-items: center;
   min-height: 100px;
-  padding: 0 40px;
-  background-color: #2c39f2; }
-  .header__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .header a,
-  .header p {
-    color: #f2f2f2; }
-  .header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0;
-    margin-right: 20px;
-    margin-left: 60px;
-    padding: 0;
-    list-style: none; }
-    .header ul li {
-      margin-right: 20px; }
-  .header .main-nav__toggle {
-    display: none; }
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 40px;
+  padding-right: 40px; }
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1152px;
+  max-width: 1152px;
+  margin: 0 auto; }
+
+.header a,
+.header p {
+  font-size: 14px;
+  line-height: 38px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.7px; }
+
+.header .main-nav__toggle {
+  display: none; }
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0;
+  margin-right: -20px;
+  margin-left: 60px;
+  padding: 0;
+  padding-top: 12px;
+  list-style: none; }
+
+.header ul li {
+  margin-right: 20px; }
+
+.main-nav__link {
+  padding-left: 3px;
+  padding-right: 4px;
+  padding-bottom: 6px; }
+
+.main-nav__link--active {
+  border-bottom: 3px solid #ff8b00; }
+
+.main-nav__link:hover {
+  border-bottom: 3px solid #ff8b00; }
 
 .footer {
   min-height: 100px;

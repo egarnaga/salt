@@ -1,41 +1,36 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 
   @@include("source/html/base/head.html")
-  <title>ProjectName — Главная</title>
+  <title>SALT</title>
 
 </head>
 <body>
+  <h1 class="visually-hidden">SALT Home Page</h1>
 
   <div style="display: none;">
     @@include("build/img/sprite_auto.svg")
   </div>
 
   <div class="wrapper">
-    @@include("source/html/base/header.html", {
-      "main": true
-    })
+    <div class="header-wrap">
+      @@include("source/html/base/header.html")
+
+      <section class="slider"></section>
+
+      <section class="find"></section>
+    </div>
+
 
     <main>
       <div class="container">
-        <p><a href="#" data-modal="feedback">modal--feedback link</a></p>
-        <p><a href="#" data-modal="success">modal--success link</a></p>
+
       </div>
     </main>
 
     @@include("source/html/base/footer.html")
 
-    @@include("source/html/base/modal.html", {
-      "name": "feedback"
-    })
-
-    @@include("source/html/base/modal.html", {
-      "name": "success",
-      "fitContent": true,
-      "noScale": true,
-      "mod": "some-mod"
-    })
   </div>
 
   <script src="js/vendor.min.js"></script>

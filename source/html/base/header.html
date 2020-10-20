@@ -1,25 +1,35 @@
-<header class="header @@if (context.mod) { header--@@mod }">
+<header class="header">
   <div class="header__wrapper">
-    <a class="header__logo" @@if (!context.main) { href="main.html"} aria-label="Переход на главную">
-      Логотип
+    <a class="header__logo" aria-label="Переход на главную">
+      <!-- 1x: 78px; 2x: 156px -->
+      <img src="img/content/logo@1x.png" srcset="img/content/logo@1x.png 1x, img/content/logo@2x.png 2x" alt="logotype SALT">
     </a>
 
     <nav class="main-nav">
-      <button class="main-nav__toggle btn-reset" type="button" aria-label="Переключатель отображения меню" aria-pressed="false">
+      <!-- <button class="main-nav__toggle btn-reset" type="button" aria-label="Переключатель отображения меню" aria-pressed="false">
         <svg width="20" height="20">
           <use xlink:href="#icon-burger"></use>
         </svg>
-      </button>
+      </button> -->
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
           <li class="main-nav__item">
-            <a class="main-nav__link @@if (context.headerActiveLinkIndex === 0) { main-nav__link--active }" @@if (context.headerActiveLinkIndex !== 0) { href="#" }>Страница 1</a>
+            <a class="main-nav__link main-nav__link--active">Home</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link @@if (context.headerActiveLinkIndex === 1) { main-nav__link--active }" @@if (context.headerActiveLinkIndex !== 1) { href="#" }>Страница 2</a>
+            <a class="main-nav__link" href="#">Products</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link @@if (context.headerActiveLinkIndex === 2) { main-nav__link--active }" @@if (context.headerActiveLinkIndex !== 2) { href="#" }>Страница 3</a>
+            <a class="main-nav__link" href="#">Services</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Resources</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">About</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">CONTACT US</a>
           </li>
         </ul>
       </div>

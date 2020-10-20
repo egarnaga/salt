@@ -1,0 +1,13 @@
+.header-wrap {
+
+  background-image: url("../img/bg/background-1@1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+
+  //min-height: 250px;
+
+  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url("../img/bg/background-1@2x.png");
+  }
+}
