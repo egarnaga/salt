@@ -9,3 +9,9 @@
     background-image: url("../img/bg/background-1@2x.png");
   }
 }
+
+@media  screen and (min-width: 1601px) {
+  .header-wrap {
+    background-position: 50% 99.9%;
+  }
+}
