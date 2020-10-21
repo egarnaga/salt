@@ -18,16 +18,22 @@
   justify-content: center;
   align-items: center;
 
-  top: 48.5%;
-  right: 54px;
+  top: 42.9%;
+  right: 51px;
 
-  margin-bottom: -15px;
+  margin-bottom: -12px;
 }
 
 @media  screen and (max-width: 800px) {
   .slider__pagination {
     top: 40%;
     right: 40px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .slider__pagination {
+    right: 15px;
   }
 }
 
@@ -40,7 +46,7 @@
 .slider__pagination span {
   width: 25px;
   height: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 
   opacity: 1;
   background-color: transparent;
@@ -105,6 +111,12 @@
 @media  screen and (max-width: 800px) {
   .slider__slide {
     padding-left: 39px;
+  }
+}
+
+@media  screen and (max-width: 768px) {
+  .slider__slide {
+    padding-left: 0;
   }
 }
 

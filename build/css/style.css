@@ -1391,14 +1391,18 @@ button,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  top: 48.5%;
-  right: 54px;
-  margin-bottom: -15px; }
+  top: 42.9%;
+  right: 51px;
+  margin-bottom: -12px; }
 
 @media screen and (max-width: 800px) {
   .slider__pagination {
     top: 40%;
     right: 40px; } }
+
+@media screen and (max-width: 768px) {
+  .slider__pagination {
+    right: 15px; } }
 
 @media screen and (max-width: 610px) {
   .slider__pagination {
@@ -1407,7 +1411,7 @@ button,
 .slider__pagination span {
   width: 25px;
   height: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
   opacity: 1;
   background-color: transparent;
   background-image: url("../img/bg/bullet@1x.png");
@@ -1464,6 +1468,10 @@ button,
 @media screen and (max-width: 800px) {
   .slider__slide {
     padding-left: 39px; } }
+
+@media screen and (max-width: 768px) {
+  .slider__slide {
+    padding-left: 0; } }
 
 @media screen and (max-width: 560px) {
   .slider__slide {
@@ -1525,10 +1533,46 @@ button,
   border-radius: 4px; }
 
 .find {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 124px;
+  max-width: 124px;
+  margin: 0 auto;
   padding-top: 96px; }
 
 .find__header {
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center; }
+
+.find__btn {
+  width: 61px;
+  height: 71px;
+  margin: 0;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url("../img/bg/btn-find-out@1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .find__btn {
+      background-image: url("../img/bg/btn-find-out@2x.png"); } }
 
 .footer {
   min-height: 100px;
