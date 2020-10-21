@@ -1589,8 +1589,16 @@ button,
   padding-left: 40px;
   padding-right: 40px; }
 
+@media screen and (max-width: 960px) {
+  .statistics {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 60px; } }
+
 @media screen and (max-width: 768px) {
   .statistics {
+    padding-top: 118px;
     padding-left: 20px;
     padding-right: 20px; } }
 
@@ -1607,6 +1615,16 @@ button,
   text-align: center;
   list-style: none; }
 
+@media screen and (max-width: 960px) {
+  .statistics__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+
 .statistics__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1617,16 +1635,32 @@ button,
           flex-direction: column;
   margin-bottom: 40px; }
 
+@media screen and (max-width: 960px) {
+  .statistics__item {
+    margin-bottom: 70px; } }
+
 .statistics__item--identity {
   max-width: 255px;
   margin-right: 73px; }
+
+@media screen and (max-width: 960px) {
+  .statistics__item--identity {
+    margin-right: 0; } }
 
 .statistics__item--transactions {
   max-width: 215px;
   margin-right: 79px; }
 
+@media screen and (max-width: 960px) {
+  .statistics__item--transactions {
+    margin-right: 0; } }
+
 .statistics__item--fraud {
   max-width: 254px; }
+
+@media screen and (max-width: 768px) {
+  .statistics__item {
+    max-width: 100%; } }
 
 .statistics__num {
   margin-bottom: 15px;
@@ -1634,11 +1668,24 @@ button,
   line-height: 1;
   text-align: left; }
 
+@media screen and (max-width: 768px) {
+  .statistics__num {
+    font-size: 40px;
+    text-align: center; } }
+
 .statistics__item--identity .statistics__num {
   padding-left: 12px; }
 
+@media screen and (max-width: 768px) {
+  .statistics__item--identity .statistics__num {
+    padding-left: 0; } }
+
 .statistics__item--fraud .statistics__num {
   padding-left: 39px; }
+
+@media screen and (max-width: 768px) {
+  .statistics__item--fraud .statistics__num {
+    padding-left: 0; } }
 
 .statistics__description {
   margin: 0;
@@ -1650,8 +1697,16 @@ button,
 .statistics__item--transactions .statistics__description {
   padding-left: 6px; }
 
+@media screen and (max-width: 768px) {
+  .statistics__item--transactions .statistics__description {
+    padding-left: 0; } }
+
 .statistics__item--fraud .statistics__description {
   padding-left: 6px; }
+
+@media screen and (max-width: 768px) {
+  .statistics__item--fraud .statistics__description {
+    padding-left: 0; } }
 
 .footer {
   min-height: 100px;
