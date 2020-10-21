@@ -55,26 +55,24 @@
 
 
     <main>
-      <div class="container">
-        <section class="statistics">
-          <h2 class="visually-hidden">Statistics</h2>
-          <ul class="statistics__list">
-            <li class="statistics__item">
-              <span>126,300</span>
-              <p>Identity Theft Cases Reported in Australia</p>
-            </li>
-            <li class="statistics__item">
-              <span>$20.1bn</span>
-              <p>Online Transactions per annum by Australians</p>
-            </li>
-            <li class="statistics__item">
-              <span>45,511</span>
-              <p>Online Fraud Cases Reported in Australia</p>
-            </li>
-          </ul>
-        </section>
+      <section class="statistics">
+        <h2 class="visually-hidden">Statistics</h2>
+        <ul class="statistics__list">
+          <li class="statistics__item statistics__item--identity">
+            <span class="statistics__num">126,300</span>
+            <p class="statistics__description">Identity Theft Cases Reported in Australia</p>
+          </li>
+          <li class="statistics__item statistics__item--transactions">
+            <span class="statistics__num">$20.1bn</span>
+            <p class="statistics__description">Online Transactions per annum by Australians</p>
+          </li>
+          <li class="statistics__item statistics__item--fraud">
+            <span class="statistics__num">45,511</span>
+            <p class="statistics__description">Online Fraud Cases Reported in Australia</p>
+          </li>
+        </ul>
+      </section>
 
-      </div>
     </main>
 
     @@include("source/html/base/footer.html")
