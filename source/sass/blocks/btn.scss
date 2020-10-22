@@ -17,3 +17,12 @@
   background-color: #ff8b00;
   border-radius: 4px;
 }
+
+@media  screen and (max-width: 519px) {
+  .btn {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 24px;
+  }
+}
