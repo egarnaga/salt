@@ -1717,11 +1717,20 @@ button,
   padding-bottom: 82px;
   background-color: #f8f8f8; }
 
+@media screen and (max-width: 470px) {
+  .what-we-do {
+    padding-top: 80px; } }
+
 .what-we-do__wrap {
   max-width: 1232px;
   margin: 0 auto;
   padding-left: 40px;
   padding-right: 40px; }
+
+@media screen and (max-width: 560px) {
+  .what-we-do__wrap {
+    padding-left: 20px;
+    padding-right: 20px; } }
 
 .what-we-do__header {
   position: relative; }
@@ -1735,6 +1744,23 @@ button,
   color: #7050e5;
   text-align: right; }
 
+@media screen and (max-width: 1599px) {
+  .what-we-do__header h2 {
+    padding-right: 50px; } }
+
+@media screen and (max-width: 800px) {
+  .what-we-do__header h2 {
+    font-size: 40px; } }
+
+@media screen and (max-width: 560px) {
+  .what-we-do__header h2 {
+    font-size: 36px; } }
+
+@media screen and (max-width: 470px) {
+  .what-we-do__header h2 {
+    padding-right: 0;
+    text-align: center; } }
+
 .what-we-do__header h2::before {
   content: "";
   position: absolute;
@@ -1747,6 +1773,22 @@ button,
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .what-we-do__header h2::before {
       background-image: url("../img/bg/arrow@2x.png"); } }
+
+@media screen and (max-width: 1599px) {
+  .what-we-do__header h2::before {
+    right: 0; } }
+
+@media screen and (max-width: 800px) {
+  .what-we-do__header h2::before {
+    width: 30px;
+    height: 30px;
+    right: 20px;
+    top: -20px;
+    background-size: cover; } }
+
+@media screen and (max-width: 470px) {
+  .what-we-do__header h2::before {
+    background-image: none; } }
 
 .what-we-do__list {
   display: -webkit-box;
@@ -1763,6 +1805,15 @@ button,
   line-height: 22px;
   color: #878787;
   list-style: none; }
+
+@media screen and (max-width: 1220px) {
+  .what-we-do__list {
+    padding-left: 8%;
+    padding-right: 0; } }
+
+@media screen and (max-width: 790px) {
+  .what-we-do__list {
+    padding-left: 0; } }
 
 .what-we-do__item {
   max-width: 280px;
@@ -1784,6 +1835,15 @@ button,
     .what-we-do__item--device {
       background-image: url("../img/bg/object-1@1x.png"); } }
 
+@media screen and (max-width: 1220px) {
+  .what-we-do__item--device {
+    margin-left: 0; } }
+
+@media screen and (max-width: 1030px) {
+  .what-we-do__item--device {
+    background-size: 54.5%;
+    padding-top: 25.9%; } }
+
 .what-we-do__item--user {
   width: 25%;
   margin-right: 0;
@@ -1796,6 +1856,11 @@ button,
     .what-we-do__item--user {
       background-image: url("../img/bg/object-2@1x.png"); } }
 
+@media screen and (max-width: 1030px) {
+  .what-we-do__item--user {
+    background-size: 67%;
+    padding-top: 25.9%; } }
+
 .what-we-do__item--transaction {
   width: 29.2%;
   margin-right: 0;
@@ -1806,6 +1871,15 @@ button,
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .what-we-do__item--transaction {
       background-image: url("../img/bg/object-3@1x.png"); } }
+
+@media screen and (max-width: 1220px) {
+  .what-we-do__item--transaction {
+    margin-right: 0; } }
+
+@media screen and (max-width: 1030px) {
+  .what-we-do__item--transaction {
+    background-size: 54.5%;
+    padding-top: 25.9%; } }
 
 .what-we-do__item--contemporary {
   width: 28.1%;
@@ -1821,6 +1895,15 @@ button,
     .what-we-do__item--contemporary {
       background-image: url("../img/bg/object-4@1x.png"); } }
 
+@media screen and (max-width: 1220px) {
+  .what-we-do__item--contemporary {
+    margin-left: 0; } }
+
+@media screen and (max-width: 1030px) {
+  .what-we-do__item--contemporary {
+    background-size: 54.5%;
+    padding-top: 23.8%; } }
+
 .what-we-do__item--hsm {
   width: 29%;
   padding-top: 181px;
@@ -1834,6 +1917,11 @@ button,
     .what-we-do__item--hsm {
       background-image: url("../img/bg/object-5@1x.png"); } }
 
+@media screen and (max-width: 1030px) {
+  .what-we-do__item--hsm {
+    background-size: 67%;
+    padding-top: 23.8%; } }
+
 .what-we-do__item--cloud {
   width: 29.2%;
   padding-top: 181px;
@@ -1845,6 +1933,38 @@ button,
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .what-we-do__item--cloud {
       background-image: url("../img/bg/object-6@1x.png"); } }
+
+@media screen and (max-width: 1220px) {
+  .what-we-do__item--cloud {
+    margin-right: 0; } }
+
+@media screen and (max-width: 1030px) {
+  .what-we-do__item--cloud {
+    background-size: 67%;
+    padding-top: 23.8%; } }
+
+@media screen and (max-width: 790px) {
+  .what-we-do__list {
+    margin-right: -5.7%; } }
+
+@media screen and (max-width: 470px) {
+  .what-we-do__list {
+    margin-right: 0; } }
+
+@media screen and (max-width: 790px) {
+  .what-we-do__item {
+    max-width: 44.3%;
+    width: 44.3%;
+    margin-right: 5.7%;
+    padding-top: 35%; } }
+
+@media screen and (max-width: 470px) {
+  .what-we-do__item {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+    background-size: 27%;
+    background-position: center 10px; } }
 
 .what-we-do__item h3 {
   margin: 0;
