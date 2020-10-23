@@ -30,3 +30,27 @@
     url("../fonts/proxima-nova-bold.woff2") format("woff2"),
     url("../fonts/proxima-nova-bold.woff") format("woff");
 }
+
+
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Raleway";
+
+  font-display: swap;
+  src:
+    url("../fonts/raleway-regular.woff2") format("woff2"),
+    url("../fonts/raleway-regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Myriad Pro";
+
+  font-display: swap;
+  src:
+    url("../fonts/myriad-pro-regular.woff2") format("woff2"),
+    url("../fonts/myriad-pro-regular.woff") format("woff");
+}

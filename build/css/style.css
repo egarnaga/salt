@@ -969,6 +969,20 @@ button.swiper-pagination-bullet {
   font-display: swap;
   src: url("../fonts/proxima-nova-bold.woff2") format("woff2"), url("../fonts/proxima-nova-bold.woff") format("woff"); }
 
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Raleway";
+  font-display: swap;
+  src: url("../fonts/raleway-regular.woff2") format("woff2"), url("../fonts/raleway-regular.woff") format("woff"); }
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Myriad Pro";
+  font-display: swap;
+  src: url("../fonts/myriad-pro-regular.woff2") format("woff2"), url("../fonts/myriad-pro-regular.woff") format("woff"); }
+
 *,
 *::before,
 *::after {
@@ -2131,7 +2145,18 @@ button,
   right: 33px;
   width: 75px;
   height: 86px;
-  background-image: url("../img/svg/logo.svg"); }
+  background-image: url("../img/svg/logo.svg");
+  background-repeat: no-repeat; }
+
+@media screen and (max-width: 960px) {
+  .footer::after {
+    bottom: 43px;
+    width: 60px; } }
+
+@media screen and (max-width: 600px) {
+  .footer::after {
+    bottom: 35px;
+    width: 50px; } }
 
 .footer__section {
   display: -webkit-box;
@@ -2140,9 +2165,16 @@ button,
   max-width: 1232px;
   margin: 0 auto;
   padding-top: 55px;
-  padding-bottom: 48px;
   padding-left: 40px;
   padding-right: 40px; }
+
+@media screen and (max-width: 960px) {
+  .footer__section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 55px; } }
 
 @media screen and (max-width: 768px) {
   .footer__section {
@@ -2185,25 +2217,69 @@ button,
   letter-spacing: 0.7px;
   text-transform: uppercase; }
 
+.footer__section li a:hover {
+  border-bottom: 2px solid #ff8b00; }
+
 .footer__wrap-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+@media screen and (max-width: 600px) {
+  .footer__wrap-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 
 .footer__navigation {
   width: 276px;
   max-width: 276px;
   padding-left: 106px; }
 
+@media screen and (max-width: 1200px) {
+  .footer__navigation {
+    width: 223px;
+    max-width: 223px;
+    padding-left: 53px; } }
+
+@media screen and (max-width: 600px) {
+  .footer__navigation {
+    padding-left: 0;
+    padding-bottom: 40px; } }
+
 .footer__links {
   width: 260px;
   max-width: 260px;
   padding-left: 96px; }
 
+@media screen and (max-width: 1200px) {
+  .footer__links {
+    width: 212px;
+    max-width: 212px;
+    padding-left: 0; } }
+
+@media screen and (max-width: 600px) {
+  .footer__links {
+    padding-bottom: 40px; } }
+
 .footer__contacts {
+  position: relative;
+  right: -9px;
   width: 310px;
   max-width: 310px;
   padding-left: 102px; }
+
+@media screen and (max-width: 1200px) {
+  .footer__contacts {
+    width: 215px;
+    max-width: 215px;
+    padding: 0; } }
+
+@media screen and (max-width: 600px) {
+  .footer__contacts {
+    right: 0;
+    padding-bottom: 40px; } }
 
 .footer__contacts-item span {
   padding-right: 10px;
@@ -2213,13 +2289,23 @@ button,
   font-size: 12.5px;
   text-transform: lowercase; }
 
+.footer__contacts-item--email {
+  padding-top: 5px; }
+
 .footer__copyright {
+  margin-top: -3px;
+  font-family: "Raleway", "Arial", sans-serif;
   font-size: 10px;
   line-height: 1;
   color: #9b9b9b;
   letter-spacing: 0.4px;
   text-transform: uppercase;
   background-color: #252525; }
+
+@media screen and (max-width: 600px) {
+  .footer__copyright {
+    margin-top: 0;
+    line-height: 1.5; } }
 
 .footer__copyright-wrap {
   max-width: 486px;
@@ -2246,6 +2332,58 @@ button,
   width: 9px;
   height: 10px;
   background-image: url("../img/svg/polygon.svg"); }
+
+@media screen and (max-width: 960px) {
+  .twitter {
+    max-width: 400px;
+    margin: 0 auto; } }
+
+.twitter__header {
+  position: relative;
+  padding-top: 12px;
+  padding-bottom: 9px;
+  padding-left: 70px;
+  padding-right: 10px;
+  font-family: "Myriad Pro", "Arial", sans-serif;
+  font-weight: 400;
+  color: #f7f7f7;
+  background-color: #7050e5;
+  z-index: 2; }
+
+.twitter__header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 61px;
+  height: 61px;
+  background-color: #5634d1;
+  background-image: url("../img/bg/twitter-logo@1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .twitter__header::before {
+      background-image: url("../img/bg/twitter-logo@2x.png"); } }
+
+.twitter__header h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 21px;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.3px; }
+
+.twitter__header p {
+  margin: 0;
+  margin-top: 3px;
+  font-size: 14px;
+  line-height: 1; }
+
+.twitter .twitter-timeline {
+  position: relative !important;
+  height: 279px !important;
+  top: -44px;
+  overflow: scroll; }
 
 /* @media (hover: hover), screen and (min-width: 0\0) {
   &:hover,
