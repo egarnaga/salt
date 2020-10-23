@@ -1440,17 +1440,11 @@ button,
   background-repeat: no-repeat;
   background-position: 50% 50%;
   outline: none; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .slider__pagination span {
-      background-image: url("../img/bg/bullet@2x.png"); } }
 
 .slider .swiper-pagination-bullet-active {
   background-image: url("../img/bg/bullet-active@1x.png");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  /* @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg/bullet-active@2x.png");
-  } */ }
+  background-position: 50% 50%; }
 
 .slider__container {
   display: -webkit-box;
@@ -1584,6 +1578,9 @@ button,
   text-align: center; }
 
 .find__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 61px;
   height: 71px;
   margin: 0;
@@ -1597,11 +1594,7 @@ button,
   cursor: pointer;
   background-color: transparent;
   background-image: url("../img/bg/btn-find-out@1x.png");
-  background-repeat: no-repeat;
-  background-size: 61px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .find__btn {
-      background-image: url("../img/bg/btn-find-out@2x.png"); } }
+  background-repeat: no-repeat; }
 
 .statistics {
   display: -webkit-box;
@@ -1791,9 +1784,6 @@ button,
   right: 73px;
   background-image: url("../img/bg/arrow@1x.png");
   background-repeat: no-repeat; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .what-we-do__header h2::before {
-      background-image: url("../img/bg/arrow@2x.png"); } }
 
 @media screen and (max-width: 1599px) {
   .what-we-do__header h2::before {
@@ -1852,9 +1842,6 @@ button,
   background-image: url("../img/bg/object-1@1x.png");
   background-repeat: no-repeat;
   background-position: 41px 34px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .what-we-do__item--device {
-      background-image: url("../img/bg/object-1@2x.png"); } }
 
 @media screen and (max-width: 1220px) {
   .what-we-do__item--device {
@@ -1873,9 +1860,6 @@ button,
   background-image: url("../img/bg/object-2@1x.png");
   background-repeat: no-repeat;
   background-position: 53px 30px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .what-we-do__item--user {
-      background-image: url("../img/bg/object-2@1x.png"); } }
 
 @media screen and (max-width: 1030px) {
   .what-we-do__item--user {
@@ -1889,9 +1873,6 @@ button,
   background-image: url("../img/bg/object-3@1x.png");
   background-repeat: no-repeat;
   background-position: 59px 30px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .what-we-do__item--transaction {
-      background-image: url("../img/bg/object-3@1x.png"); } }
 
 @media screen and (max-width: 1220px) {
   .what-we-do__item--transaction {
@@ -1912,9 +1893,6 @@ button,
   background-image: url("../img/bg/object-4@1x.png");
   background-repeat: no-repeat;
   background-position: 57px 20px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .what-we-do__item--contemporary {
-      background-image: url("../img/bg/object-4@1x.png"); } }
 
 @media screen and (max-width: 1220px) {
   .what-we-do__item--contemporary {
@@ -1934,9 +1912,6 @@ button,
   background-image: url("../img/bg/object-5@1x.png");
   background-repeat: no-repeat;
   background-position: 38px 29px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .what-we-do__item--hsm {
-      background-image: url("../img/bg/object-5@1x.png"); } }
 
 @media screen and (max-width: 1030px) {
   .what-we-do__item--hsm {
@@ -1951,9 +1926,6 @@ button,
   background-image: url("../img/bg/object-6@1x.png");
   background-repeat: no-repeat;
   background-position: 28px 48px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .what-we-do__item--cloud {
-      background-image: url("../img/bg/object-6@1x.png"); } }
 
 @media screen and (max-width: 1220px) {
   .what-we-do__item--cloud {
@@ -2344,6 +2316,13 @@ button,
 
 .twitter__header {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding-top: 12px;
   padding-bottom: 9px;
   padding-left: 70px;
@@ -2364,10 +2343,8 @@ button,
   background-color: #5634d1;
   background-image: url("../img/bg/twitter-logo@1x.png");
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-size: 38px 38px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .twitter__header::before {
-      background-image: url("../img/bg/twitter-logo@2x.png"); } }
 
 .twitter__header h2 {
   margin: 0;
@@ -2388,6 +2365,13 @@ button,
   height: 279px !important;
   top: -44px;
   overflow: scroll; }
+
+.twitter__feed {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden; }
 
 /* @media (hover: hover), screen and (min-width: 0\0) {
   &:hover,

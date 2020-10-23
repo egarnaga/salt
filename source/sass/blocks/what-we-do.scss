@@ -77,10 +77,6 @@
 
   background-image: url("../img/bg/arrow@1x.png");
   background-repeat: no-repeat;
-
-  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg/arrow@2x.png");
-  }
 }
 
 @media  screen and (max-width: 1599px) {
@@ -156,10 +152,7 @@
   background-image: url("../img/bg/object-1@1x.png");
   background-repeat: no-repeat;
   background-position: 41px 34px;
-
-  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg/object-1@2x.png");
-  }
+  //background-size: 142px 146px;
 }
 
 @media  screen and (max-width: 1220px) {
@@ -185,10 +178,6 @@
   background-image: url("../img/bg/object-2@1x.png");
   background-repeat: no-repeat;
   background-position: 53px 30px;
-
-  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg/object-2@1x.png");
-  }
 }
 
 @media  screen and (max-width: 1030px) {
@@ -207,10 +196,6 @@
   background-image: url("../img/bg/object-3@1x.png");
   background-repeat: no-repeat;
   background-position: 59px 30px;
-
-  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg/object-3@1x.png");
-  }
 }
 
 @media  screen and (max-width: 1220px) {
@@ -240,10 +225,6 @@
   background-image: url("../img/bg/object-4@1x.png");
   background-repeat: no-repeat;
   background-position: 57px 20px;
-
-  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg/object-4@1x.png");
-  }
 }
 
 @media  screen and (max-width: 1220px) {
@@ -269,10 +250,6 @@
   background-image: url("../img/bg/object-5@1x.png");
   background-repeat: no-repeat;
   background-position: 38px 29px;
-
-  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg/object-5@1x.png");
-  }
 }
 
 @media  screen and (max-width: 1030px) {
@@ -291,10 +268,6 @@
   background-image: url("../img/bg/object-6@1x.png");
   background-repeat: no-repeat;
   background-position: 28px 48px;
-
-  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg/object-6@1x.png");
-  }
 }
 
 @media  screen and (max-width: 1220px) {
