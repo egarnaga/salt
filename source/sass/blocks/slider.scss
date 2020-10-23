@@ -53,6 +53,8 @@
   background-image: url("../img/bg/bullet@1x.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  //border: none;
+  //border-radius: 0;
 
   outline: none;
 
@@ -70,6 +72,7 @@
     background-image: url("../img/bg/bullet-active@2x.png");
   }
 }
+
 
 .slider__container {
   display: flex;
