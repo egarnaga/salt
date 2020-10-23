@@ -1598,11 +1598,10 @@ button,
   background-color: transparent;
   background-image: url("../img/bg/btn-find-out@1x.png");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  /* @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    background-image: url("../img/bg/btn-find-out@2x.png");
-    background-size: 61px;
-  } */ }
+  background-size: 61px; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .find__btn {
+      background-image: url("../img/bg/btn-find-out@2x.png"); } }
 
 .statistics {
   display: -webkit-box;
@@ -1855,7 +1854,7 @@ button,
   background-position: 41px 34px; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .what-we-do__item--device {
-      background-image: url("../img/bg/object-1@1x.png"); } }
+      background-image: url("../img/bg/object-1@2x.png"); } }
 
 @media screen and (max-width: 1220px) {
   .what-we-do__item--device {
@@ -2365,11 +2364,10 @@ button,
   background-color: #5634d1;
   background-image: url("../img/bg/twitter-logo@1x.png");
   background-repeat: no-repeat;
-  background-position: 50% 50%; }
+  background-size: 38px 38px; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .twitter__header::before {
-      background-image: url("../img/bg/twitter-logo@2x.png");
-      background-size: 38px 38px; } }
+      background-image: url("../img/bg/twitter-logo@2x.png"); } }
 
 .twitter__header h2 {
   margin: 0;
