@@ -1590,8 +1590,8 @@ button,
   outline: none;
   cursor: pointer;
   background-color: transparent;
-  background-image: url("../img/bg/btn-find-out@1x.png");
-  background-repeat: no-repeat; }
+  /* background-image: url("../img/bg/btn-find-out@1x.png");
+  background-repeat: no-repeat; */ }
 
 .statistics {
   display: -webkit-box;
@@ -2331,10 +2331,15 @@ button,
   width: 61px;
   height: 61px;
   background-color: #5634d1;
-  background-image: url("../img/bg/twitter-logo@1x.png");
+  /* background-image: url("../img/bg/twitter-logo@1x.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: 38px 38px; }
+  background-size: 38px 38px; */ }
+
+.twitter__header img {
+  position: absolute;
+  top: 12px;
+  left: 11px; }
 
 .twitter__header h2 {
   margin: 0;
