@@ -36,11 +36,11 @@
   background-image: url("../img/bg/btn-find-out@1x.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: 61px;
+  //background-size: 61px;
 
 
-  @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  /* @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     background-image: url("../img/bg/btn-find-out@2x.png");
     background-size: 61px;
-  }
+  } */
 }
