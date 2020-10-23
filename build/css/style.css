@@ -1018,7 +1018,8 @@ a {
 img,
 video {
   display: block;
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto; }
 
 textarea {
   resize: none; }
@@ -1446,10 +1447,10 @@ button,
 .slider .swiper-pagination-bullet-active {
   background-image: url("../img/bg/bullet-active@1x.png");
   background-repeat: no-repeat;
-  background-position: 50% 50%; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .slider .swiper-pagination-bullet-active {
-      background-image: url("../img/bg/bullet-active@2x.png"); } }
+  background-position: 50% 50%;
+  /* @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    background-image: url("../img/bg/bullet-active@2x.png");
+  } */ }
 
 .slider__container {
   display: -webkit-box;
@@ -2366,11 +2367,10 @@ button,
   background-image: url("../img/bg/twitter-logo@1x.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: 38px; }
+  background-size: 38px 38px; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .twitter__header::before {
-      background-image: url("../img/bg/twitter-logo@2x.png");
-      background-size: 38px; } }
+      background-image: url("../img/bg/twitter-logo@2x.png"); } }
 
 .twitter__header h2 {
   margin: 0;

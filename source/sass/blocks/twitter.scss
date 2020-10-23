@@ -40,11 +40,11 @@
   background-image: url("../img/bg/twitter-logo@1x.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: 38px;
+  background-size: 38px 38px;
 
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     background-image: url("../img/bg/twitter-logo@2x.png");
-    background-size: 38px;
+    //background-size: 38px;
   }
 }
 
