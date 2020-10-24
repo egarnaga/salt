@@ -46,6 +46,13 @@
   }
 }
 
+@media  screen and (max-width: 768px) {
+  .statistics__list {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 .statistics__item {
   display: flex;
   flex-direction: column;
@@ -59,6 +66,7 @@
 }
 
 .statistics__item--identity {
+  width: 255px;
   max-width: 255px;
   margin-right: 73px;
 }
@@ -70,6 +78,7 @@
 }
 
 .statistics__item--transactions {
+  width: 215px;
   max-width: 215px;
   margin-right: 79px;
 }
@@ -81,15 +90,16 @@
 }
 
 .statistics__item--fraud {
+  width: 254px;
   max-width: 254px;
 }
 
 @media  screen and (max-width: 768px) {
   .statistics__item {
+    width: 100%;
     max-width: 100%;
   }
 }
-
 
 .statistics__num {
   margin-bottom: 15px;
