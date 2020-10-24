@@ -100,9 +100,12 @@
   color: #ffffff;
   letter-spacing: 0.7px;
   text-transform: uppercase;
+
+  transition: all 0.3ms;
 }
 
 .footer__section li a:hover {
+  opacity: 0.8;
   border-bottom: 2px solid #ff8b00;
 }
 

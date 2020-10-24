@@ -64,7 +64,6 @@
   }
 }
 
-
 .what-we-do__header h2::before {
   content: "";
   position: absolute;
@@ -152,7 +151,6 @@
   background-image: url("../img/bg/object-1@1x.png");
   background-repeat: no-repeat;
   background-position: 41px 34px;
-  //background-size: 142px 146px;
 }
 
 @media  screen and (max-width: 1220px) {
@@ -210,9 +208,6 @@
     padding-top: 25.9%;
   }
 }
-
-
-
 
 .what-we-do__item--contemporary {
   width: 28.1%;
@@ -276,17 +271,12 @@
   }
 }
 
-
 @media  screen and (max-width: 1030px) {
   .what-we-do__item--cloud {
     background-size: 67%;
     padding-top: 23.8%;
   }
 }
-
-
-
-
 
 @media  screen and (max-width: 790px) {
   .what-we-do__list {
@@ -318,9 +308,6 @@
     background-position: center 10px;
   }
 }
-
-
-
 
 .what-we-do__item h3 {
   margin: 0;

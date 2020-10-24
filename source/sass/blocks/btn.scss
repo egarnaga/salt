@@ -2,8 +2,8 @@
   display: inline-flex;
   align-items: center;
 
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 15.5px;
+  padding-bottom: 14.5px;
   padding-left: 40px;
   padding-right: 44px;
 
@@ -16,6 +16,8 @@
 
   background-color: #ff8b00;
   border-radius: 4px;
+
+  transition: all 0.3ms;
 }
 
 @media  screen and (max-width: 519px) {
@@ -25,4 +27,8 @@
     padding-left: 20px;
     padding-right: 24px;
   }
+}
+
+.btn:hover {
+  opacity: 0.8;
 }

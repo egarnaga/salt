@@ -10,15 +10,12 @@
   }
 }
 
-
 .product__wrap-left {
   width: 46.19%;
   padding-top: 6.5%;
   padding-left: 10.05%;
   padding-right: 6.1%;
 }
-
-
 
 @media  screen and (max-width: 1090px) {
   .product__wrap-left {
@@ -77,6 +74,11 @@
   color: #878787;
 }
 
+.product .btn {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
 .product__wrap-right {
   width: 53.81%;
   padding-right: 8.5%;
@@ -96,7 +98,6 @@
   }
 }
 
-
 .product__img {
   display: block;
 
@@ -110,9 +111,10 @@
   background-color: grey;
   background-image: url("../img/content/video@1x.jpg");
   background-repeat: no-repeat;
-  //background-position: 50% 50%;
   background-position: center center;
   background-size: cover;
+
+  cursor: pointer;
 }
 
 .product__img button {
@@ -123,13 +125,16 @@
   line-height: 0;
 
   border: none;
-
   background-color: transparent;
-
-
   cursor: pointer;
   outline: none;
   border-radius: 100%;
+
+  transition: all 0.3ms;
+}
+
+.product__img button:hover {
+  opacity: 0.8;
 }
 
 .product__img button img {
@@ -252,16 +257,11 @@
   position: fixed;
   z-index: 995;
 
-  //z-index: 10000;
   top: 0;
   background-color: #000;
   opacity: 0.8;
-  //width: 100vw;
-  //height: 100vh;
   width: 100%;
   height: 100%;
-  //max-width: 100%;
-  //height: 100%;
 }
 
 .product #video-popup-close:hover {

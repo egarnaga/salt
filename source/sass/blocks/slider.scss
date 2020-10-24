@@ -53,10 +53,16 @@
   background-image: url("../img/bg/bullet@1x.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  //border: none;
-  //border-radius: 0;
 
   outline: none;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  transition: all 0.3ms;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet:hover {
+  opacity: 0.8;
 }
 
 .slider .swiper-pagination-bullet-active {
@@ -65,6 +71,9 @@
   background-position: 50% 50%;
 }
 
+.slider .swiper-pagination-bullet-active:hover {
+  opacity: 1;
+}
 
 .slider__container {
   display: flex;

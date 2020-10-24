@@ -13,6 +13,8 @@
   padding-left: 3px;
   padding-right: 4px;
   padding-bottom: 6px;
+
+  transition: all 0.3ms;
 }
 
 .main-nav__link--active {
@@ -21,10 +23,12 @@
 
 .main-nav__link:hover {
   border-bottom: 3px solid #ff8b00;
+  opacity: 0.8;
 }
 
-
-
+.main-nav__link--active:hover {
+  opacity: 1;
+}
 
 @media screen and (max-width: 768px) {
 
@@ -136,7 +140,6 @@
     min-height: 100%;
     padding-top: 15px;
     padding-left: 0;
-    //background-color: #7050e5;
     background-color: #5634d1;
     z-index: 1000;
   }
@@ -160,12 +163,8 @@
   }
 }
 
-
-
-
 @media  screen and (max-width: 768px) {
   .main-nav .main-nav__list {
-    //display: block;
     height: 500px;
     overflow-y: auto;
     flex-direction: column;
@@ -181,7 +180,6 @@
     padding-top: 20px;
   }
 }
-
 
 @media  screen and (max-width: 768px) {
   .main-nav .main-nav__link {
