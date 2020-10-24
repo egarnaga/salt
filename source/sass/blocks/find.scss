@@ -7,6 +7,19 @@
   padding-top: 96px;
 }
 
+@media  screen and (max-width: 610px) {
+  .find {
+    padding-top: 50px;
+  }
+}
+
+@media  screen and (max-width: 560px) {
+  .find {
+    padding-top: 30px;
+  }
+}
+
+
 .find__header {
   margin: 0;
   margin-bottom: 20px;
@@ -36,4 +49,11 @@
 
 .find__btn:hover {
   opacity: 0.8;
+}
+
+@media  screen and (max-width: 560px) {
+  .find__btn {
+    width: 40px;
+    margin-bottom: 10px;
+  }
 }

@@ -1159,7 +1159,8 @@ button,
 
 @media screen and (max-width: 768px) {
   .body-lock {
-    position: fixed; } }
+    position: fixed;
+    overflow-y: scroll; } }
 
 :active, :hover, :focus {
   outline: 0;
@@ -1556,6 +1557,7 @@ button,
 
 @media screen and (max-width: 560px) {
   .slider__slide p {
+    margin-bottom: 30px;
     padding-left: 0;
     padding-right: 0; } }
 
@@ -1584,7 +1586,7 @@ button,
   -webkit-transition: all 0.3ms;
   transition: all 0.3ms; }
 
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 560px) {
   .btn {
     padding-top: 8px;
     padding-bottom: 5px;
@@ -1606,6 +1608,14 @@ button,
   max-width: 124px;
   margin: 0 auto;
   padding-top: 96px; }
+
+@media screen and (max-width: 610px) {
+  .find {
+    padding-top: 50px; } }
+
+@media screen and (max-width: 560px) {
+  .find {
+    padding-top: 30px; } }
 
 .find__header {
   margin: 0;
@@ -1635,6 +1645,11 @@ button,
 .find__btn:hover {
   opacity: 0.8; }
 
+@media screen and (max-width: 560px) {
+  .find__btn {
+    width: 40px;
+    margin-bottom: 10px; } }
+
 .statistics {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1658,6 +1673,11 @@ button,
     padding-top: 118px;
     padding-left: 20px;
     padding-right: 20px; } }
+
+@media screen and (max-width: 560px) {
+  .statistics {
+    padding-top: 60px;
+    padding-bottom: 30px; } }
 
 .statistics__list {
   display: -webkit-box;
@@ -1701,6 +1721,10 @@ button,
   .statistics__item {
     margin-bottom: 70px; } }
 
+@media screen and (max-width: 560px) {
+  .statistics__item {
+    margin-bottom: 30px; } }
+
 .statistics__item--identity {
   width: 255px;
   max-width: 255px;
@@ -1737,6 +1761,12 @@ button,
 @media screen and (max-width: 768px) {
   .statistics__num {
     font-size: 40px;
+    text-align: center; } }
+
+@media screen and (max-width: 560px) {
+  .statistics__num {
+    margin-bottom: 10px;
+    font-size: 28px;
     text-align: center; } }
 
 .statistics__item--identity .statistics__num {
@@ -1779,9 +1809,10 @@ button,
   padding-bottom: 82px;
   background-color: #f8f8f8; }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 560px) {
   .what-we-do {
-    padding-top: 80px; } }
+    padding-top: 60px;
+    padding-bottom: 60px; } }
 
 .what-we-do__wrap {
   max-width: 1232px;
@@ -1816,7 +1847,8 @@ button,
 
 @media screen and (max-width: 560px) {
   .what-we-do__header h2 {
-    font-size: 36px; } }
+    margin-bottom: 30px;
+    font-size: 28px; } }
 
 @media screen and (max-width: 470px) {
   .what-we-do__header h2 {
@@ -2015,6 +2047,10 @@ button,
   color: #7050e5;
   text-transform: uppercase; }
 
+@media screen and (max-width: 560px) {
+  .what-we-do__item h3 {
+    margin-bottom: 7px; } }
+
 .what-we-do__item p {
   margin: 0;
   font-size: 14.5px;
@@ -2033,6 +2069,11 @@ button,
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; } }
+
+@media screen and (max-width: 560px) {
+  .product {
+    padding-top: 60px;
+    padding-bottom: 60px; } }
 
 .product__wrap-left {
   width: 46.19%;
@@ -2059,6 +2100,10 @@ button,
     padding-right: 20px;
     margin-bottom: 30px; } }
 
+@media screen and (max-width: 560px) {
+  .product__wrap-left {
+    margin-bottom: 60px; } }
+
 .product h2 {
   margin: 0;
   margin-bottom: 2.1%;
@@ -2074,12 +2119,20 @@ button,
   .product h2 {
     font-size: 28px; } }
 
+@media screen and (max-width: 560px) {
+  .product h2 {
+    margin-bottom: 30px; } }
+
 .product p {
   margin: 0;
   margin-bottom: 6.1%;
   font-size: 15px;
   line-height: 22px;
   color: #878787; }
+
+@media screen and (max-width: 560px) {
+  .product p {
+    margin-bottom: 30px; } }
 
 .product .btn {
   padding-left: 48px;
@@ -2275,10 +2328,10 @@ button,
     padding-left: 20px;
     padding-right: 20px; } }
 
-@media screen and (max-width: 519px) {
+@media screen and (max-width: 560px) {
   .ready__wrap {
-    padding-top: 40px;
-    padding-bottom: 40px; } }
+    padding-top: 60px;
+    padding-bottom: 60px; } }
 
 @media screen and (max-width: 519px) {
   .ready__header {
@@ -2343,6 +2396,10 @@ button,
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 55px; } }
+
+@media screen and (max-width: 560px) {
+  .footer__section {
+    padding-top: 60px; } }
 
 @media screen and (max-width: 768px) {
   .footer__section {
