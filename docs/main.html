@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="description" content="Project Name - описание">
+<meta name="description" content="SALT">
+<link rel="shortcut icon" href="#">
 
 <!-- генерируйте favicon тут - https://realfavicongenerator.net/ -->
 
@@ -113,10 +114,13 @@
 
       <section class="find">
         <h2 class="find__header">Find out more</h2>
-        <button class="find__btn" type="button">
-          <span class="visually-hidden">Find out more</span>
+        <a href="#find-out-more" class="find__btn">
           <img src="img/bg/btn-find-out@1x.png" srcset="img/bg/btn-find-out@1x.png 1x, img/bg/btn-find-out@2x.png 2x" alt="button image">
-        </button>
+        </a>
+        <!-- <button class="find__btn" type="button">
+          <span class="visually-hidden">Find out more</span>
+
+        </button> -->
       </section>
     </div>
 
@@ -140,7 +144,7 @@
         </ul>
       </section>
 
-      <section class="what-we-do">
+      <section class="what-we-do" id="find-out-more">
         <div class="what-we-do__wrap">
           <div class="what-we-do__header">
             <h2>What We Do</h2>
@@ -184,10 +188,14 @@
         <div class="product__wrap-right">
           <!-- 1x: 724px; 2x: 1448x -->
           <div class="product__img">
-            <img src="img/content/video@1x.jpg" srcset="img/content/video@1x.jpg 1x, img/content/video@2x.jpg 2x" alt="Promo Video">
-            <button class="vpop" type="button" data-type="youtube" data-id="RUQHGwCsju8" data-autoplay="true">
-              <img src="img/bg/icon-play@1x.png" srcset="img/bg/icon-play@1x.png 1x, img/bg/icon-play@2x.png 2x" alt="Play">
-            </button>
+            <!-- <img src="img/content/video@1x.jpg" srcset="img/content/video@1x.jpg 1x, img/content/video@2x.jpg 2x" alt="Promo Video"> -->
+            <div class="product__content">
+              <button class="vpop" type="button" data-type="youtube" data-id="RUQHGwCsju8" data-autoplay="true">
+                <img src="img/bg/icon-play@1x.png" srcset="img/bg/icon-play@1x.png 1x, img/bg/icon-play@2x.png 2x" alt="Play">
+              </button>
+              <p>Feature video</p>
+              <h2>Msign connected token</h2>
+            </div>
           </div>
         </div>
 
@@ -196,7 +204,7 @@
         <div id="video-popup-container">
           <div id="video-popup-close" class="fade">&#10006;</div>
           <div id="video-popup-iframe-container">
-            <iframe id="video-popup-iframe" src="" width="100%" height="100%" frameborder="0" allow="autoplay;"></iframe>
+            <iframe id="video-popup-iframe" allow="autoplay;"></iframe>
           </div>
         </div>
 
