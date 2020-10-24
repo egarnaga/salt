@@ -978,6 +978,20 @@ button.swiper-pagination-bullet {
 
 @font-face {
   font-style: normal;
+  font-weight: 600;
+  font-family: "Raleway";
+  font-display: swap;
+  src: url("../fonts/raleway-semibold.woff2") format("woff2"), url("../fonts/raleway-semibold.woff") format("woff"); }
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Raleway";
+  font-display: swap;
+  src: url("../fonts/raleway-extrabold.woff2") format("woff2"), url("../fonts/raleway-extrabold.woff") format("woff"); }
+
+@font-face {
+  font-style: normal;
   font-weight: 400;
   font-family: "Myriad Pro";
   font-display: swap;
@@ -1146,6 +1160,10 @@ button,
 @media screen and (max-width: 768px) {
   .body-lock {
     position: fixed; } }
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0; }
 
 .container {
   width: 100%;
@@ -2053,6 +2071,87 @@ button,
     padding-left: 20px;
     padding-right: 20px; } }
 
+.product__img {
+  display: block;
+  width: 724px;
+  max-width: 100%;
+  height: auto;
+  padding-top: 23%;
+  padding-left: 12%;
+  padding-right: 12%;
+  background-color: grey;
+  background-image: url("../img/content/video@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.product__img button {
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  line-height: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border-radius: 100%; }
+
+.product__img button img {
+  line-height: 0; }
+
+.product__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.product__content p {
+  margin: 0;
+  margin-top: 3.6%;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1.6px; }
+
+.product__content h2 {
+  margin: 0;
+  margin-top: 1%;
+  margin-bottom: 21.7%;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3.6px; }
+
+@media screen and (max-width: 1490px) {
+  .product__content h2 {
+    font-size: 26px; } }
+
+@media screen and (max-width: 1226px) {
+  .product__content h2 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 994px) {
+  .product__content h2 {
+    font-size: 11px; } }
+
+@media screen and (max-width: 600px) {
+  .product__content h2 {
+    font-size: 20px; } }
+
+@media screen and (max-width: 490px) {
+  .product__content h2 {
+    font-size: 11px; } }
+
 .product #video-popup-container {
   display: none;
   position: fixed;
@@ -2094,7 +2193,8 @@ button,
   height: 100%;
   left: 0;
   top: 0;
-  background-color: #000; }
+  background-color: #000;
+  border: none; }
 
 .product #video-popup-overlay {
   display: none;

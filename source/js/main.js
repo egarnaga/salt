@@ -4,6 +4,7 @@ import {initModals} from './modules/init-modals';
 import {openMenu} from './modules/openMenu';
 import {sliderHeader} from './modules/sliderHeader';
 import {videoPopUp} from './modules/videoPopUp';
+import {smoothScroll} from './modules/smoothScroll';
 
 // Utils
 // ---------------------------------
@@ -17,3 +18,4 @@ initModals();
 openMenu();
 sliderHeader();
 videoPopUp();
+smoothScroll();

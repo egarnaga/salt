@@ -44,6 +44,32 @@
     url("../fonts/raleway-regular.woff") format("woff");
 }
 
+
+@font-face {
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Raleway";
+
+  font-display: swap;
+  src:
+    url("../fonts/raleway-semibold.woff2") format("woff2"),
+    url("../fonts/raleway-semibold.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Raleway";
+
+  font-display: swap;
+  src:
+    url("../fonts/raleway-extrabold.woff2") format("woff2"),
+    url("../fonts/raleway-extrabold.woff") format("woff");
+}
+
+
+
+
 @font-face {
   font-style: normal;
   font-weight: 400;
