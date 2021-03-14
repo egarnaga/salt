@@ -1,6 +1,6 @@
-# Проект «Salt»
+# Salt
 
-## Описание проекта
+## Описание
 
 [Демо](https://egarnaga.github.io/salt/main.html)
 
